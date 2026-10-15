@@ -108,7 +108,7 @@ ChatGPT (OpenAI) was used to debug React code and git commands, as well as touch
 
 The application will be deployed online using Vercel.
 
-**Live Website:** To be added after deployment.
+**Live Website:** https://react-app-kappa-blond-77.vercel.app/
 
 ## Author
 
