@@ -1,0 +1,106 @@
+
+/* General page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef4f8;
+  color: #243447;
+}
+
+/* Main application */
+.app {
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #2874a6;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin: 0 0 20px 0;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav button {
+  background-color: white;
+  color: #2874a6;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #d6eaf8;
+}
+
+/* Main content */
+main {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Content cards */
+.card {
+  background-color: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  color: #2874a6;
+}
+
+.card p {
+  line-height: 1.7;
+}
+
+/* Weather display */
+.weather {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.weather img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.temperature {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Temperature toggle */
+.weather button {
+  background-color: #2874a6;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather button:hover {
+  background-color: #1b4f72;
+}
+
+/* Error messages */
+.error {
+  color: red;
+}
