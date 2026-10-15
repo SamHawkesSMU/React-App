@@ -102,7 +102,7 @@ The application requests the current temperature using Halifax's approximate geo
 
 ## AI Tool Disclosure
 
-ChatGPT (OpenAI) was used to debug React code and git commands. 
+ChatGPT (OpenAI) was used to debug React code and git commands, as well as touch up text in the read me. 
 
 ## Deployment
 
